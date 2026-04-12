@@ -1,7 +1,32 @@
+# --- Python / virtualenv ---
 .venv/
+venv/
+env/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# --- PyCharm / IDE ---
 .idea/
+*.iml
+
+# --- macOS ---
 .DS_Store
-data/*.txt
-data/*.log
+
+# --- Test / build artifacts ---
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# --- Local data/output files (keep your code clean) ---
+data/
+*.txt
+*.log
+
+# If you keep sample inputs, you can whitelist them like this:
+# !data/sample_*.txt
+# !data/sample_*.csv
